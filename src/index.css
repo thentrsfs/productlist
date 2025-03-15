@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer base {
+  @font-face {
+    font-family: 'Red-Hat-Regular';
+    src: url('/fonts/static/RedHatText-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Red-Hat-SemiBold';
+    src: url('/fonts/static/RedHatText-SemiBold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Red-Hat-Bold';
+    src: url('/fonts/static/RedHatText-Bold.ttf') format('truetype');
+  }
+}
+body {
+  font-family: 'Red-Hat-Regular', sans-serif;
+
+}
+
+@theme{
+/* Breakpoints */
+  --breakpoint-tablet: 960px;
+  --breakpoint-desktop: 1248px;
+/* Colors */
+  --color-red: #C73B0F;
+  --color-rose-900: #260F08;
+  --color-rose-500: #87635A;
+  --color-rose-400: #AD8A85;
+  --color-rose-300: #CAAFA7;
+  --color-rose-100: #F5EEEC;
+  --color-rose-50: #FCF8F6;
+  --color-green: #1EA575;
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+/* Typography */
+  --text-1: 40px;
+  --text-1--line-height: 120%;
+  --text-1--letter-spacing: 0px;
+  --text-2: 24px;
+  --text-2--line-height: 125%;
+  --text-2--letter-spacing: 0px;
+  --text-3: 16px;
+  --text-3--line-height: 150%;
+  --text-3--letter-spacing: 0px;
+  --text-4: 14px;
+  --text-4--line-height: 150%;
+  --text-4--letter-spacing: 0px;
+/* Font Families */
+  --font-redhat: 'Red-Hat-Regular', sans-serif;
+  --font-redhat-semibold: 'Red-Hat-SemiBold', sans-serif;
+  --font-redhat-bold: 'Red-Hat-Bold', sans-serif;
+}
+
+
+
+
+
