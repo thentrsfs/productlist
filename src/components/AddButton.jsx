@@ -6,7 +6,7 @@ const Button = ({ addToCart, item, removeFromCart, cartItem }) => {
 			<button
 				className={`${
 					quantity ? 'hidden' : 'block'
-				} bg-white absolute bottom-[83px] left-[50%] translate-x-[-50%]  border border-rose-400 rounded-3xl w-[160px] h-[44px] flex items-center justify-center gap-2 cursor-pointer`}
+				} bg-white absolute bottom-[83px] left-[50%] translate-x-[-50%]  border border-rose-400 rounded-3xl w-[160px] h-[44px] flex items-center justify-center gap-2 cursor-pointer hover:text-red hover:border-red`}
 				onClick={() => addToCart(item)}>
 				<img
 					src={AddCartSvg}
@@ -23,7 +23,7 @@ const Button = ({ addToCart, item, removeFromCart, cartItem }) => {
 					quantity ? 'block' : 'hidden'
 				} bg-red flex absolute bottom-[83px] left-[50%] translate-x-[-50%]  border border-rose-400 rounded-3xl w-[160px] h-[44px] items-center justify-center gap-2 cursor-pointer`}>
 				<span
-					className='text-white flex items-center justify-center w-[18px] h-[18px] border rounded-xl text-xl pb-0.5 '
+					className='text-white flex items-center justify-center w-[18px] h-[18px] border rounded-xl text-xl pb-0.5 hover:bg-white hover:text-red '
 					onClick={() => removeFromCart(item)}>
 					-
 				</span>
@@ -33,7 +33,7 @@ const Button = ({ addToCart, item, removeFromCart, cartItem }) => {
 				</span>
 
 				<span
-					className='text-white flex items-center justify-center w-[18px] h-[18px] border rounded-xl text-xl '
+					className='text-white flex items-center justify-center w-[18px] h-[18px] border rounded-xl text-xl hover:bg-white hover:text-red '
 					onClick={() => addToCart(item)}>
 					+
 				</span>

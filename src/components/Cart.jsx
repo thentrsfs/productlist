@@ -1,5 +1,4 @@
 import EmptyCart from '/images/illustration-empty-cart.svg';
-import RemoveCartSvg from '/images/icon-remove-item.svg';
 import CarbonNeutralIcon from '/images/icon-carbon-neutral.svg';
 const Cart = ({
 	cart,
@@ -42,12 +41,11 @@ const Cart = ({
 								</span>
 							</div>
 						</div>
-						<img
-							src={RemoveCartSvg}
-							alt='remove icon'
-							className='border border-rose-400 rounded-xl my-[1rem] p-[0.2rem] cursor-pointer'
-							onClick={() => removeGroupFromCart(item)}
-						/>
+						<button
+							className='border border-rose-400 text-rose-400 rounded-xl my-[15px] p-[0.2rem] pb-[0.3rem] cursor-pointer hover:border-rose-900 hover:text-rose-900 leading-0 flex items-center justify-center w-[20px] h-[20px]'
+							onClick={() => removeGroupFromCart(item)}>
+							x
+						</button>
 					</li>
 					<hr className='text-rose-100' />
 				</ul>
@@ -68,7 +66,7 @@ const Cart = ({
 					</div>
 				</div>
 				<button
-					className='bg-red text-white py-3 rounded-3xl w-full cursor-pointer font-redhat-semibold'
+					className='bg-red text-white py-3 rounded-3xl w-full cursor-pointer font-redhat-semibold hover:bg-darkred'
 					onClick={() => setOrderConfirmed(true)}>
 					Confirm Order
 				</button>

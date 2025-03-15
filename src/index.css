@@ -25,6 +25,7 @@ body {
   --breakpoint-desktop: 1248px;
 /* Colors */
   --color-red: #C73B0F;
+  --color-darkred:hsla(14, 86%, 30%, 1);
   --color-rose-900: #260F08;
   --color-rose-500: #87635A;
   --color-rose-400: #AD8A85;

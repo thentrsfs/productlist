@@ -53,7 +53,7 @@ const OrderConfirmed = ({ cart, cartTotal, startNewOrder }) => {
 				</div>
 			</div>
 			<button
-				className='bg-red w-full rounded-3xl text-white text-3 font-redhat-semibold mt-5 py-2 cursor-pointer'
+				className='bg-red w-full rounded-3xl text-white text-3 font-redhat-semibold mt-5 py-2 cursor-pointer hover:bg-darkred '
 				onClick={startNewOrder}>
 				Start New Order
 			</button>
