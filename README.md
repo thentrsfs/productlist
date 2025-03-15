@@ -37,8 +37,8 @@ npm run build # or yarn build
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL:https://www.frontendmentor.io/solutions/product-list-using-react-and-tailwindcss-_KZKRv00Hw
+- Live Site URL: https://productlist-taupe.vercel.app/
 
 ### Built with
 
@@ -49,6 +49,10 @@ npm run build # or yarn build
 
 ### What I learned
 
+- Managing state with React for cart functionality
+- Styling with Tailwind's utility classes
+- Creating responsive UI components
+- Handling modals and conditional rendering in React
 
 ## Author
 
@@ -57,4 +61,4 @@ npm run build # or yarn build
 
 ## Acknowledgments
 
-
+Thanks to Frontend Mentor for the challenge, and to React and Tailwind CSS for making development efficient!
