@@ -16,7 +16,7 @@ Users should be able to:
 Make sure you have Node.js and npm (or yarn) installed.
 
 # Clone the repository
-git clone https://github.com/your-username/product-list.git
+git clone https://github.com/thentrsfs/product-list.git
 cd product-list
 
 # Install dependencies
