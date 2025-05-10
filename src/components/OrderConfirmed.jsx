@@ -1,7 +1,7 @@
 import IconOrderConfirmed from '/images/icon-order-confirmed.svg';
 const OrderConfirmed = ({ cart, cartTotal, startNewOrder }) => {
 	return (
-		<div className='fixed justify-center items-center md:top-[50%] md:left-[50%] md:translate-x-[-50%] md:translate-y-[-50%] bottom-[-1px] z-50 bg-white md:rounded-xl rounded-t-xl p-7 md:w-lg w-full md:h-fit md:max-h-[80vh] h-[80vh] overflow-y-auto'>
+		<div className='fixed justify-center items-center md:top-[50%] md:left-[50%] md:translate-x-[-50%] md:translate-y-[-50%] bottom-[-1px] z-50 bg-white md:rounded-xl rounded-t-xl p-7 md:w-lg w-full md:max-h-[80vh] h-fit overflow-y-auto'>
 			<img
 				src={IconOrderConfirmed}
 				alt='icon order confirmed'
@@ -53,7 +53,7 @@ const OrderConfirmed = ({ cart, cartTotal, startNewOrder }) => {
 				</div>
 			</div>
 			<button
-				className='bg-red w-full rounded-3xl text-white text-3 font-redhat-semibold mt-5 py-2 cursor-pointer hover:bg-darkred '
+				className='bg-red w-full rounded-3xl text-white text-3 font-redhat-semibold mt-5 py-2 cursor-pointer hover:bg-darkred transition-all duration-300'
 				onClick={startNewOrder}>
 				Start New Order
 			</button>

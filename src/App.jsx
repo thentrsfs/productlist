@@ -163,7 +163,7 @@ function App() {
 	}, []);
 
 	return (
-		<div className='flex'>
+		<div className='flex relative'>
 			<div className={orderConfirmed ? '' : 'hidden'}>
 				<OrderConfirmed
 					cart={cart}
@@ -180,7 +180,9 @@ function App() {
 					<div className='flex flex-col sm:grid sm:grid-cols-3 sm:grid-rows-3 gap-8 xl:col-span-2'>
 						{menu.map((item) => {
 							return (
-								<div key={item.id} className='flex flex-col gap-4 relative'>
+								<div
+									key={item.id}
+									className='flex flex-col gap-4 relative'>
 									<img
 										src={
 											isTablet
